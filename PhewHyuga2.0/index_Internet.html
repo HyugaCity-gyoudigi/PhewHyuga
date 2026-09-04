@@ -1,0 +1,1277 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex">
+    <title>ヒュー！日向「世界でいちばん、休める街へ」ロゴ・イラスト集</title>
+    <style>
+        :root {
+            --base-yellow: rgb(255, 251, 0);
+            --yellow-strong: rgb(255, 251, 0);
+            --yellow-soft: rgb(255, 253, 140);
+            --yellow-pale: rgb(255, 255, 220);
+            --yellow-bg: rgb(255, 255, 242);
+            --yellow-line: rgb(214, 210, 0);
+            --text-main: rgb(85, 80, 0);
+            --text-sub: rgb(110, 105, 0);
+            --shadow: rgba(120, 110, 0, 0.18);
+            --overlay: rgba(70, 70, 0, 0.42);
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+            color: var(--text-main);
+            background: linear-gradient(180deg, rgb(255, 255, 235) 0%, var(--yellow-bg) 100%);
+        }
+
+        .container {
+            width: min(1200px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 24px 0 48px;
+        }
+
+        .header {
+            background: linear-gradient(180deg, rgb(255, 255, 210) 0%, rgb(255, 254, 180) 100%);
+            border: 1px solid var(--yellow-line);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 10px 24px var(--shadow);
+            margin-bottom: 22px;
+        }
+
+
+        .title-row {
+            display: grid;
+            grid-template-columns: 120px 1fr 120px;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 18px;
+        }
+
+        .title-left,
+        .title-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 120px;
+        }
+
+        .title-side-image {
+            max-width: 100px;
+            max-height: 100px;
+            width: auto;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .title-main {
+            text-align: center;
+        }
+
+        .title-main h1 {
+            margin: 0;
+            font-size: clamp(1.4rem, 2.6vw, 2.1rem);
+            line-height: 1.5;
+            color: var(--text-main);
+        }
+
+        .concept-block {
+            position: relative;
+            margin: 8px 0 24px;
+            padding: 28px 20px 18px;
+            text-align: left;
+            background: linear-gradient(180deg, rgb(255, 255, 230) 0%, rgb(255, 255, 210) 100%);
+            border: 2px solid rgb(214, 210, 0);
+            border-radius: 18px;
+            box-shadow: 0 8px 18px rgba(120, 110, 0, 0.12);
+        }
+
+        .concept-title {
+            position: absolute;
+            top: -14px;
+            left: 16px;
+            display: inline-block;
+            margin: 0;
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: rgb(255, 251, 0);
+            border: 2px solid rgb(180, 175, 0);
+            font-weight: 700;
+            color: var(--text-main);
+            box-shadow: 0 4px 10px rgba(120, 110, 0, 0.12);
+            letter-spacing: 0.04em;
+        }
+
+        .concept {
+            line-height: 1.95;
+            color: var(--text-main);
+            margin: 0;
+            white-space: normal;
+            font-size: 1rem;
+        }
+
+        .concept p {
+            margin: 0;
+        }
+
+        .extension-note {
+            margin: -8px 0 24px;
+            padding: 16px 18px;
+            background: rgba(255, 255, 255, 0.55);
+            border: 1px solid rgba(214, 210, 0, 0.9);
+            border-radius: 14px;
+            color: var(--text-main);
+            box-shadow: 0 4px 12px rgba(120, 110, 0, 0.08);
+        }
+
+        .extension-note-title {
+            margin: 0 0 8px;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .extension-note ul {
+            margin: 0;
+            padding-left: 1.4em;
+            line-height: 1.8;
+        }
+
+        .extension-note li + li {
+            margin-top: 4px;
+        }
+
+        .header-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .header-btn {
+            appearance: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            border: 1px solid var(--yellow-line);
+            background: var(--yellow-strong);
+            color: var(--text-main);
+            border-radius: 999px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 0.95rem;
+            box-shadow: 0 6px 14px rgba(120, 110, 0, 0.14);
+            transition: transform 0.15s ease, background 0.2s ease;
+        }
+
+        .header-btn:hover {
+            transform: translateY(-1px);
+            background: rgb(255, 247, 0);
+        }
+
+        .status {
+            margin-top: 10px;
+            text-align: left;
+            color: var(--text-sub);
+            font-size: 0.95rem;
+        }
+
+        .category-section {
+            margin: 24px 0 18px;
+        }
+
+        .section-title {
+            margin: 0 0 12px;
+            font-size: 1.08rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .category-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .category-btn {
+            appearance: none;
+            border: 1px solid var(--yellow-line);
+            background: rgb(255, 255, 180);
+            color: var(--text-main);
+            border-radius: 999px;
+            padding: 10px 16px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 700;
+            box-shadow: 0 4px 10px rgba(120, 110, 0, 0.10);
+            transition: all 0.2s ease;
+        }
+
+        .category-btn:hover {
+            background: rgb(255, 252, 70);
+            transform: translateY(-1px);
+        }
+
+        .category-btn.active {
+            background: var(--yellow-strong);
+            border-color: rgb(180, 175, 0);
+        }
+
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin: 20px 0 16px;
+            padding: 14px 16px;
+            background: rgb(255, 255, 210);
+            border: 1px solid var(--yellow-line);
+            border-radius: 14px;
+        }
+
+        .current-category {
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .count {
+            color: var(--text-sub);
+            font-size: 0.95rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: rgb(255, 255, 230);
+            border: 1px solid rgba(185, 180, 0, 0.55);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(120, 110, 0, 0.12);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(120, 110, 0, 0.18);
+        }
+
+        .thumb-wrap {
+            position: relative;
+            height: 220px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgb(255, 255, 190);
+            overflow: hidden;
+        }
+
+        .thumb-wrap img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            background: transparent;
+        }
+
+        .zoom-overlay {
+            position: absolute;
+            inset: 0;
+            background: var(--overlay);
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .thumb-wrap:hover .zoom-overlay,
+        .thumb-wrap:focus-within .zoom-overlay {
+            opacity: 1;
+        }
+
+        .zoom-icon {
+            font-size: 1.6rem;
+            line-height: 1;
+        }
+
+        .card-body {
+            padding: 12px 12px 14px;
+        }
+
+        .file-name {
+            margin: 0 0 12px;
+            font-size: 0.92rem;
+            color: var(--text-main);
+            word-break: break-all;
+            min-height: 2.8em;
+            line-height: 1.4;
+        }
+
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .actions.single .btn-download {
+            flex-basis: 100%;
+        }
+
+        .btn-download {
+            appearance: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 calc(50% - 4px);
+            min-width: 88px;
+            width: auto;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 10px 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 700;
+            transition: background 0.2s ease, transform 0.15s ease;
+            background: var(--yellow-strong);
+            color: var(--text-main);
+            border: 1px solid rgb(190, 185, 0);
+        }
+
+        .btn-download:hover {
+            background: rgb(255, 247, 0);
+            transform: translateY(-1px);
+        }
+
+        .empty,
+        .error {
+            padding: 26px 18px;
+            background: rgb(255, 255, 220);
+            border: 1px solid var(--yellow-line);
+            border-radius: 14px;
+            color: var(--text-sub);
+            text-align: center;
+        }
+
+        .modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.76);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            z-index: 1000;
+        }
+
+        .modal.open {
+            display: flex;
+        }
+
+        .modal-content {
+            position: relative;
+            width: min(1100px, 100%);
+            max-height: 90vh;
+            background: rgb(255, 255, 235);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(210, 205, 0, 0.8);
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 12px 16px;
+            background: rgb(255, 251, 0);
+            border-bottom: 1px solid rgb(180, 175, 0);
+        }
+
+        .modal-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-main);
+            word-break: break-all;
+        }
+
+        .modal-close {
+            border: 1px solid rgb(175, 170, 0);
+            background: rgb(255, 255, 170);
+            color: var(--text-main);
+            border-radius: 10px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .modal-close:hover {
+            background: rgb(255, 248, 80);
+        }
+
+        .modal-image-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            background: rgb(255, 255, 245);
+            max-height: calc(90vh - 64px);
+            overflow: auto;
+        }
+
+        .modal-image {
+            max-width: 100%;
+            max-height: calc(90vh - 100px);
+            object-fit: contain;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* 禁止事項表示用 */
+        .modal.prohibit-mode .modal-image-wrap {
+            display: block;
+            padding: 14px;
+            max-height: calc(90vh - 64px);
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+
+        .modal.prohibit-mode .modal-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            max-height: none;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+        }
+
+        
+.site-footer {
+    margin-top: 28px;
+    padding: 22px 24px;
+    background: linear-gradient(180deg, rgb(255, 255, 230) 0%, rgb(255, 255, 210) 100%);
+    border: 1px solid var(--yellow-line);
+    border-radius: 18px;
+    box-shadow: 0 8px 18px rgba(120, 110, 0, 0.10);
+    color: var(--text-main);
+}
+
+.site-footer-title {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.site-footer p {
+    margin: 6px 0;
+    line-height: 1.8;
+}
+
+.site-footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+            .title-row {
+                grid-template-columns: 72px 1fr 72px;
+                gap: 10px;
+            }
+
+            .title-left,
+            .title-right {
+                width: 72px;
+                height: 72px;
+            }
+
+            .title-side-image {
+                max-width: 60px;
+                max-height: 60px;
+                width: auto;
+                height: auto;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
+
+            .thumb-wrap {
+                height: 180px;
+            }
+
+            .header {
+                padding: 18px;
+            }
+
+            .header-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .header-btn {
+                width: 100%;
+            }
+
+            @media (max-width: 640px) {
+                .title-row {
+                    grid-template-columns: 1fr;
+                    text-align: center;
+                }
+
+                .title-left,
+                .title-right {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .title-side-image {
+                    max-width: 90px;
+                    max-height: 90px;
+                    width: auto;
+                    height: auto;
+                }
+
+                .title-main {
+                    order: 2;
+                }
+
+                .title-left {
+                    order: 1;
+                }
+
+                .title-right {
+                    order: 3;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="title-row">
+                <div class="title-left">
+                    <img src="ILLUSTRATION_D-2.png" alt="左イラスト" class="title-side-image" />
+                </div>
+
+                <div class="title-main">
+                    <h1>ヒュー！日向「世界でいちばん、休める街へ」ロゴ・イラスト集</h1>
+                </div>
+
+                <div class="title-right">
+                    <img src="ILLUSTRATION_B-2.png" alt="右イラスト" class="title-side-image" />
+                </div>
+            </div>
+
+            <div class="concept-block">
+                <div class="concept-title">コンセプト</div>
+                <div class="concept">
+                    <p>
+                        人間がしあわせに暮らすために、いちばん大切なこと。それは、休みだ。<br>
+                        はたらくことも大切だけど、休むことはもっと大切だ。<br>
+                        こまめに休むから、力がわく。楽しく休むから、アイデアがわく。<br>
+                        ゆっくり休むから、希望がわく。<br>
+                        日向市はこれから、世界でいちばん休みを大切にする街になります。
+                    </p>
+                </div>
+            </div>
+
+            <div class="extension-note">
+                <p class="extension-note-title">拡張子について</p>
+                <ul>
+                    <li>png、jpg：資料作成やWEBサイト等で使いやすい一般的な画像データです。</li>
+                    <li>ai、psd：印刷物や看板等の制作に適した高解像度・編集用データです。専用ソフト（Adobe Illustrator等）をお持ちでない場合はファイルを開くことができません。</li>
+                </ul>
+            </div>
+
+            <div class="header-buttons">
+                <button id="prohibitBtn" class="header-btn" type="button">禁止事項はこちら</button>
+                <button id="manualBtn" class="header-btn" type="button">マニュアルはこちら</button>
+
+                <a  class="header-btn" href="https://www.phew-hyuga.jp/" target="_blank"
+                    rel="noopener noreferrer">ヒュー！日向リンク</a>
+
+                <a class="header-btn"
+                    href="../PhewHyuga1.0/ndex_Internet.html"
+                    target="_blank" rel="noopener noreferrer">ヒュー！日向「リラックス・サーフタウン」ロゴ・イラスト集</a>
+            </div>
+
+            <div id="status" class="status">読み込み中...</div>
+        </header>
+
+        <section class="category-section">
+            <h2 class="section-title">Category</h2>
+            <div id="categoryButtons" class="category-buttons"></div>
+        </section>
+
+        <section class="toolbar" aria-live="polite">
+            <div class="current-category" id="currentCategory">未選択</div>
+            <div class="count" id="imageCount">0件</div>
+        </section>
+
+        <main id="galleryArea">
+            <div class="empty">CSVを読み込んでいます...</div>
+        </main>
+    
+<footer class="site-footer">
+    <h2 class="site-footer-title">問合せ先</h2>
+    <p>日向市経済戦略部ふるさとプロモーション課</p>
+    <p><a href="tel:0982522111">TEL:0982-52-2111</a></p>
+    <p><a href="mailto:f_promotion@hyugacity.jp">EMAIL:f_promotion@hyugacity.jp</a></p>
+</footer>
+
+    </div>
+
+    <div id="imageModal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <div id="modalTitle" class="modal-title"></div>
+                <button id="modalClose" class="modal-close" type="button">閉じる</button>
+            </div>
+            <div class="modal-image-wrap">
+                <img id="modalImage" class="modal-image" src="" alt="拡大画像" />
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const state = {
+            items: [],
+            grouped: new Map(),
+            categories: [],
+            currentCategory: null,
+            totalCards: 0
+        };
+
+        const MANUAL_FILE = "manual.pdf";
+        const PROHIBIT_IMAGE = "prohibit.png";
+
+        const statusEl = document.getElementById("status");
+        const categoryButtonsEl = document.getElementById("categoryButtons");
+        const galleryAreaEl = document.getElementById("galleryArea");
+        const currentCategoryEl = document.getElementById("currentCategory");
+        const imageCountEl = document.getElementById("imageCount");
+
+        const modalEl = document.getElementById("imageModal");
+        const modalImageEl = document.getElementById("modalImage");
+        const modalTitleEl = document.getElementById("modalTitle");
+        const modalCloseEl = document.getElementById("modalClose");
+
+        const prohibitBtn = document.getElementById("prohibitBtn");
+        const manualBtn = document.getElementById("manualBtn");
+
+        function splitCSVLine(line) {
+            const result = [];
+            let current = "";
+            let inQuotes = false;
+
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                const next = line[i + 1];
+
+                if (char === '"') {
+                    if (inQuotes && next === '"') {
+                        current += '"';
+                        i++;
+                    } else {
+                        inQuotes = !inQuotes;
+                    }
+                } else if (char === "," && !inQuotes) {
+                    result.push(current);
+                    current = "";
+                } else {
+                    current += char;
+                }
+            }
+
+            result.push(current);
+            return result.map(v => v.trim());
+        }
+
+        function parseCSV(text) {
+            const lines = text
+                .replace(/\r\n/g, "\n")
+                .replace(/\r/g, "\n")
+                .split("\n")
+                .filter(line => line.trim().length > 0);
+
+            if (lines.length === 0) return [];
+
+            const rows = lines.map(splitCSVLine);
+            const header = rows[0].map(h => h.replace(/^\uFEFF/, "").replace(/^"|"$/g, "").trim());
+
+            const categoryIndex = header.findIndex(h => h.toLowerCase() === "category");
+            const nameIndex = header.findIndex(h => h.toLowerCase() === "name");
+
+            if (categoryIndex === -1 || nameIndex === -1) {
+                throw new Error('list.csv の1行目は "Category,Name" である必要があります。');
+            }
+
+            return rows
+                .slice(1)
+                .map(cols => {
+                    const category = (cols[categoryIndex] || "").replace(/^"|"$/g, "").trim();
+                    const name = (cols[nameIndex] || "").replace(/^"|"$/g, "").trim();
+                    return { category, name };
+                })
+                .filter(row => row.category && row.name);
+        }
+
+        function makeAssetPath(category, name) {
+            return encodeURI(`${category}/${name}`);
+        }
+
+        function escapeHtml(str) {
+            return String(str)
+                .replaceAll("&", "&amp;")
+                .replaceAll("<", "&lt;")
+                .replaceAll(">", "&gt;")
+                .replaceAll('"', "&quot;")
+                .replaceAll("'", "&#39;");
+        }
+
+        function getExtension(name) {
+            const match = /\.([^.]+)$/.exec(name);
+            return match ? match[1].toLowerCase() : "";
+        }
+
+        function normalizeExtension(ext) {
+            return ext === "jpeg" ? "jpg" : ext;
+        }
+
+        function stripExtension(name) {
+            return String(name).replace(/\.[^.]+$/, "");
+        }
+
+        function splitColorMode(stem) {
+            const match = /^(.*)_(RGB|CMYK)$/i.exec(stem);
+            if (match) {
+                return {
+                    baseStem: match[1],
+                    colorMode: match[2].toUpperCase()
+                };
+            }
+
+            return {
+                baseStem: stem,
+                colorMode: null
+            };
+        }
+
+        function isSpecialIllustrationFSeries(category, baseStem) {
+            return String(category).toUpperCase() === "ILLUSTRATION" && /^F[1-9]$/i.test(baseStem);
+        }
+
+        function prefersJpgPreview(category, baseStem) {
+            const normalizedCategory = String(category).toUpperCase();
+            return normalizedCategory === "POSTER" || isSpecialIllustrationFSeries(category, baseStem);
+        }
+
+        function createCardSkeleton(category, groupKey, options = {}) {
+            const { isSpecial = false } = options;
+
+            return {
+                category,
+                key: groupKey,
+                displayName: groupKey,
+                isSpecial,
+                files: {},
+                modes: {
+                    RGB: {},
+                    CMYK: {}
+                }
+            };
+        }
+
+        function groupItems(items) {
+            const grouped = new Map();
+            const categories = [];
+            const cardMaps = new Map();
+            let totalCards = 0;
+
+            items.forEach(item => {
+                const category = item.category;
+                const extension = normalizeExtension(getExtension(item.name));
+
+                if (!extension) {
+                    return;
+                }
+
+                const stem = stripExtension(item.name);
+                const modeInfo = splitColorMode(stem);
+                const isSpecial = isSpecialIllustrationFSeries(category, modeInfo.baseStem);
+                const groupKey = isSpecial ? modeInfo.baseStem : stem;
+                const modeKey = modeInfo.colorMode || "RGB";
+                const fileInfo = {
+                    name: item.name,
+                    path: makeAssetPath(category, item.name),
+                    ext: extension
+                };
+
+                if (!grouped.has(category)) {
+                    grouped.set(category, []);
+                    cardMaps.set(category, new Map());
+                    categories.push(category);
+                }
+
+                const categoryCardMap = cardMaps.get(category);
+
+                if (!categoryCardMap.has(groupKey)) {
+                    categoryCardMap.set(
+                        groupKey,
+                        createCardSkeleton(category, groupKey, { isSpecial })
+                    );
+                    grouped.get(category).push(categoryCardMap.get(groupKey));
+                    totalCards++;
+                }
+
+                const card = categoryCardMap.get(groupKey);
+
+                if (card.isSpecial) {
+                    if (!card.modes[modeKey]) {
+                        card.modes[modeKey] = {};
+                    }
+                    card.modes[modeKey][extension] = fileInfo;
+                } else {
+                    card.files[extension] = fileInfo;
+                }
+            });
+
+            return { grouped, categories, totalCards };
+        }
+
+        function renderCategoryButtons() {
+            categoryButtonsEl.innerHTML = "";
+
+            if (state.categories.length === 0) {
+                categoryButtonsEl.innerHTML = '<div class="empty">カテゴリがありません。</div>';
+                return;
+            }
+
+            state.categories.forEach(category => {
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "category-btn" + (category === state.currentCategory ? " active" : "");
+                btn.textContent = category;
+
+                btn.addEventListener("click", () => {
+                    state.currentCategory = category;
+                    renderCategoryButtons();
+                    renderGallery();
+                });
+
+                categoryButtonsEl.appendChild(btn);
+            });
+        }
+
+        function openModal(src, title, options = {}) {
+            const { prohibitMode = false } = options;
+
+            modalImageEl.src = src;
+            modalTitleEl.textContent = title;
+
+            if (prohibitMode) {
+                modalEl.classList.add("prohibit-mode");
+            } else {
+                modalEl.classList.remove("prohibit-mode");
+            }
+
+            modalEl.classList.add("open");
+            modalEl.setAttribute("aria-hidden", "false");
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeModal() {
+            modalEl.classList.remove("open");
+            modalEl.classList.remove("prohibit-mode");
+            modalEl.setAttribute("aria-hidden", "true");
+            modalImageEl.src = "";
+            document.body.style.overflow = "";
+        }
+
+        async function forceDownload(filePath, downloadName) {
+            try {
+                const response = await fetch(filePath, { cache: "no-store" });
+                if (!response.ok) {
+                    throw new Error(`ダウンロード失敗: ${response.status}`);
+                }
+
+                const blob = await response.blob();
+                const blobUrl = URL.createObjectURL(blob);
+
+                const a = document.createElement("a");
+                a.href = blobUrl;
+                a.download = downloadName;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+
+                setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
+            } catch (error) {
+                console.warn("fetch経由のダウンロードに失敗したため、通常リンクで再試行します。", error);
+
+                const a = document.createElement("a");
+                a.href = encodeURI(filePath);
+                a.download = downloadName;
+                a.rel = "noopener";
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+            }
+        }
+
+        function createFallbackImage(card) {
+            const modeInfo = splitColorMode(card.displayName);
+            const isIllustrationCmyk =
+                String(card.category).toUpperCase() === "ILLUSTRATION" &&
+                modeInfo.colorMode === "CMYK";
+            const pathText = card.category + "/" + card.displayName;
+
+            if (isIllustrationCmyk) {
+                return (
+                    "data:image/svg+xml;charset=utf-8," +
+                    encodeURIComponent(`
+                        <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+                          <rect width="100%" height="100%" fill="rgb(255,255,190)"/>
+                          <text x="50%" y="44%" dominant-baseline="middle" text-anchor="middle"
+                                font-size="60" font-weight="700" fill="rgb(110,105,0)" font-family="sans-serif">
+                            CMYK版
+                          </text>
+                          <text x="50%" y="57%" dominant-baseline="middle" text-anchor="middle"
+                                font-size="34" font-weight="700" fill="rgb(110,105,0)" font-family="sans-serif">
+                            印刷用カラーモデル
+                          </text>
+                        </svg>
+                    `)
+                );
+            }
+
+            return (
+                "data:image/svg+xml;charset=utf-8," +
+                encodeURIComponent(`
+                    <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+                      <rect width="100%" height="100%" fill="rgb(255,255,190)"/>
+                      <text x="50%" y="44%" dominant-baseline="middle" text-anchor="middle"
+                            font-size="34" font-weight="700" fill="rgb(110,105,0)" font-family="sans-serif">
+                        プレビュー画像を読み込めません
+                      </text>
+                      <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle"
+                            font-size="24" fill="rgb(110,105,0)" font-family="sans-serif">
+                        ${pathText}
+                      </text>
+                    </svg>
+                `)
+            );
+        }
+
+        function pickFirstExisting(fileMap, order) {
+            for (const ext of order) {
+                if (fileMap && fileMap[ext]) {
+                    return fileMap[ext];
+                }
+            }
+            return null;
+        }
+
+        function getPreviewAsset(card) {
+            if (card.isSpecial) {
+                return pickFirstExisting(card.modes.RGB, ["jpg", "png"]);
+            }
+
+            const previewOrder = prefersJpgPreview(card.category, card.key)
+                ? ["jpg", "png"]
+                : ["png", "jpg"];
+
+            return pickFirstExisting(card.files, previewOrder);
+        }
+
+        function getDownloadEntries(card) {
+            const entries = [];
+
+            if (card.isSpecial) {
+                const rgbPreview = pickFirstExisting(card.modes.RGB, ["jpg", "png"]);
+                if (rgbPreview) {
+                    entries.push({
+                        label: `${rgbPreview.ext}(RGB)`,
+                        asset: rgbPreview
+                    });
+                }
+
+                ["ai", "psd"].forEach(ext => {
+                    if (card.modes.RGB[ext]) {
+                        entries.push({
+                            label: `${ext}(RGB)`,
+                            asset: card.modes.RGB[ext]
+                        });
+                    }
+                });
+
+                ["ai", "psd"].forEach(ext => {
+                    if (card.modes.CMYK[ext]) {
+                        entries.push({
+                            label: `${ext}(CMYK)`,
+                            asset: card.modes.CMYK[ext]
+                        });
+                    }
+                });
+
+                return entries;
+            }
+
+            const previewOrder = prefersJpgPreview(card.category, card.key)
+                ? ["jpg", "png"]
+                : ["png", "jpg"];
+
+            previewOrder.forEach(ext => {
+                if (card.files[ext]) {
+                    entries.push({
+                        label: ext,
+                        asset: card.files[ext]
+                    });
+                }
+            });
+
+            ["ai", "psd"].forEach(ext => {
+                if (card.files[ext]) {
+                    entries.push({
+                        label: ext,
+                        asset: card.files[ext]
+                    });
+                }
+            });
+
+            return entries;
+        }
+
+        function createDownloadButton(entry) {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "btn-download";
+            btn.textContent = entry.label;
+
+            btn.addEventListener("click", async () => {
+                await forceDownload(entry.asset.path, entry.asset.name);
+            });
+
+            return btn;
+        }
+
+        function createCard(card) {
+            const previewAsset = getPreviewAsset(card);
+            const downloadEntries = getDownloadEntries(card);
+
+            const cardEl = document.createElement("article");
+            cardEl.className = "card";
+
+            const thumbWrap = document.createElement("div");
+            thumbWrap.className = "thumb-wrap";
+
+            const imgEl = document.createElement("img");
+            imgEl.loading = "lazy";
+            imgEl.alt = card.displayName;
+            imgEl.src = previewAsset ? previewAsset.path : createFallbackImage(card);
+            thumbWrap.appendChild(imgEl);
+
+            let previewEnabled = Boolean(previewAsset);
+            let overlay = null;
+
+            if (previewEnabled) {
+                overlay = document.createElement("div");
+                overlay.className = "zoom-overlay";
+                overlay.setAttribute("role", "button");
+                overlay.setAttribute("tabindex", "0");
+                overlay.setAttribute("aria-label", `${card.displayName} を拡大表示`);
+                overlay.innerHTML = '<span class="zoom-icon">🔍</span><span>拡大</span>';
+                thumbWrap.appendChild(overlay);
+            }
+
+            const bodyEl = document.createElement("div");
+            bodyEl.className = "card-body";
+
+            const fileNameEl = document.createElement("p");
+            fileNameEl.className = "file-name";
+            fileNameEl.textContent = card.displayName;
+            bodyEl.appendChild(fileNameEl);
+
+            const actionsEl = document.createElement("div");
+            actionsEl.className = "actions";
+            if (downloadEntries.length === 1) {
+                actionsEl.classList.add("single");
+            }
+
+            downloadEntries.forEach(entry => {
+                actionsEl.appendChild(createDownloadButton(entry));
+            });
+
+            if (downloadEntries.length === 0) {
+                const emptyEl = document.createElement("div");
+                emptyEl.className = "empty";
+                emptyEl.textContent = "ダウンロード対象がありません。";
+                bodyEl.appendChild(emptyEl);
+            } else {
+                bodyEl.appendChild(actionsEl);
+            }
+
+            cardEl.appendChild(thumbWrap);
+            cardEl.appendChild(bodyEl);
+
+            const open = () => {
+                if (previewEnabled && previewAsset) {
+                    openModal(previewAsset.path, card.displayName);
+                }
+            };
+
+            if (overlay) {
+                overlay.addEventListener("click", open);
+                overlay.addEventListener("keydown", e => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        open();
+                    }
+                });
+                thumbWrap.addEventListener("dblclick", open);
+            }
+
+            imgEl.addEventListener("error", () => {
+                imgEl.alt = "画像を読み込めません";
+                imgEl.src = createFallbackImage(card);
+                previewEnabled = false;
+
+                if (overlay) {
+                    overlay.remove();
+                    overlay = null;
+                }
+            });
+
+            return cardEl;
+        }
+
+        function renderGallery() {
+            const category = state.currentCategory;
+            const cards = category ? state.grouped.get(category) || [] : [];
+
+            currentCategoryEl.textContent = category ? `選択中: ${category}` : "未選択";
+            imageCountEl.textContent = `${cards.length}件`;
+
+            if (!category) {
+                galleryAreaEl.innerHTML = '<div class="empty">カテゴリを選択してください。</div>';
+                return;
+            }
+
+            if (cards.length === 0) {
+                galleryAreaEl.innerHTML = '<div class="empty">このカテゴリには画像がありません。</div>';
+                return;
+            }
+
+            const gallery = document.createElement("div");
+            gallery.className = "gallery";
+
+            cards.forEach(card => {
+                gallery.appendChild(createCard(card));
+            });
+
+            galleryAreaEl.innerHTML = "";
+            galleryAreaEl.appendChild(gallery);
+        }
+
+        prohibitBtn.addEventListener("click", () => {
+            openModal(PROHIBIT_IMAGE, "禁止事項", { prohibitMode: true });
+        });
+
+        manualBtn.addEventListener("click", async () => {
+            await forceDownload(MANUAL_FILE, MANUAL_FILE);
+        });
+
+        modalCloseEl.addEventListener("click", closeModal);
+
+        modalEl.addEventListener("click", e => {
+            if (e.target === modalEl) {
+                closeModal();
+            }
+        });
+
+        document.addEventListener("keydown", e => {
+            if (e.key === "Escape" && modalEl.classList.contains("open")) {
+                closeModal();
+            }
+        });
+
+        async function init() {
+            try {
+                statusEl.textContent = "list.csv を読み込み中...";
+                const response = await fetch("list.csv", { cache: "no-store" });
+
+                if (!response.ok) {
+                    throw new Error(`list.csv の読み込みに失敗しました: ${response.status}`);
+                }
+
+                const csvText = await response.text();
+                const items = parseCSV(csvText);
+                const { grouped, categories, totalCards } = groupItems(items);
+
+                state.items = items;
+                state.grouped = grouped;
+                state.categories = categories;
+                state.currentCategory = categories[0] || null;
+                state.totalCards = totalCards;
+
+                renderCategoryButtons();
+                renderGallery();
+
+                statusEl.textContent = `読み込み完了: ${items.length}ファイル / ${totalCards}件 / ${categories.length}カテゴリ`;
+            } catch (error) {
+                console.error(error);
+                statusEl.textContent = "読み込みに失敗しました。";
+                categoryButtonsEl.innerHTML = "";
+                galleryAreaEl.innerHTML = `
+                    <div class="error">
+                        list.csv を読み込めませんでした。<br>
+                        1行目が <strong>Category,Name</strong> になっているか確認してください。<br>
+                        また、必要に応じてローカルサーバー上で開いてください。
+                    </div>
+                `;
+            }
+        }
+
+        init();
+    
+    </script>
+</body>
+
+</html>
